@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    background-image: url(blackjack.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px auto;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: monospace;
+}
+
+p {
+    color: #1E1E1E;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #1E1E1E;
+    text-decoration: underline;
+}
+
+div {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 80%;
+    height: 70%;
+
+}
+
+button {
+    background-color: rgb(208, 36, 36);
+    padding: 10px 8px;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#sum-el {
+    margin-bottom: 35px;
+}
